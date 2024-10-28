@@ -1,0 +1,16 @@
+cc_library(
+    name = "tracy",
+    srcs = ["public/TracyClient.cpp"],
+    hdrs = ["public/tracy/Tracy.hpp"],
+    includes = ["public"],
+    linkopts = [
+        "-lpthread",
+        "-ldl",
+    ],
+    textual_hdrs = glob([
+        "public/**/*.cpp",
+        "public/**/*.h",
+        "public/**/*.hpp",
+    ]),
+    visibility = ["//visibility:public"],
+)

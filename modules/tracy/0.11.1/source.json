@@ -1,0 +1,10 @@
+{
+    "integrity": "sha256-LBHKgW8rdWvicw+GsAkpIEGfPavHpxc4Kf/Yl9kYiKE=",
+    "url": "https://github.com/wolfpld/tracy/archive/refs/tags/v0.11.1.tar.gz",
+    "strip_prefix": "tracy-0.11.1",
+    "patch_strip": 0,
+    "overlay": {
+      "MODULE.bazel": "sha256-eUsBJF+wYa54zZ5Q45WuzW7TUkRYq46zrBKsyyoB+SM=",
+      "BUILD.bazel": "sha256-WDpvRo/eskXr7OfShNa6zIphydSnSsVfMbH3bhwrbCQ="
+    }
+  }

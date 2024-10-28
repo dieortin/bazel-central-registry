@@ -1,0 +1,14 @@
+{
+    "homepage": "https://tracy.nereid.pl",
+    "maintainers": [
+        {
+            "email": "dieortin@gmail.com",
+            "name": "Diego Ortín"
+        }
+    ],
+    "repository": "github:wolfpld/tracy",
+    "versions": [
+        "0.11.1"
+    ],
+    "yanked_versions": {}
+}
